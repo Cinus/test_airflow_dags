@@ -23,9 +23,9 @@ default_args = {
 }
 
 with DAG(
-    dag_id='test_widerplanet_wjbyun',
+    dag_id='hello_wjbyun',
     description='test',
-    schedule_interval='30 * * * *',
+    schedule_interval='20 * * * *',
     catchup=False,
     tags=TAGS_FOR_DAG,
     default_args=default_args
